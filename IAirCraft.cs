@@ -14,5 +14,6 @@
 
         void TurnLeft();
         void TurnRight();
+        void StartBeverageService();
     }
 }
