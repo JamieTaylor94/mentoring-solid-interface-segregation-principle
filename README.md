@@ -24,6 +24,8 @@ A fighterjet needs to have the following methods and properties to function:
 
 Hint: The army do not care about serving food or drink.
 
+Note: The empty void methods are in on purpose I don't expect you to do anything in them.
+
 ## Evidence for the matrix
 
 Create a file called interface-segregation.md

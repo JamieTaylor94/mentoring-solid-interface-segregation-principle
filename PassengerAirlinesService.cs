@@ -9,13 +9,12 @@
             _passengerAirlineRequest = passengerAirlineRequest;
         }
 
-        public IAirCraft GetAirCraft()
+        public Airliner GetAirCraft()
         {
             return new Airliner
             {
                 Capacity = _passengerAirlineRequest.Capacity,
                 HasOnboardMeal = _passengerAirlineRequest.HasMeal,
-                HasWings = _passengerAirlineRequest.HasWings
             };
         }
     }

@@ -3,7 +3,6 @@
     public class Airliner : IAirCraft
     {
         public bool HasOnboardMeal { get; set; }
-        public bool HasWings { get; set; }
         public int Capacity { get; set; }
 
         public void Fly()

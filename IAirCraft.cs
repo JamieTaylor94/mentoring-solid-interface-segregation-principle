@@ -3,7 +3,6 @@
     public interface IAirCraft
     {
         bool HasOnboardMeal { get; set; }
-        bool HasWings { get; set; }
         int Capacity { get; set; }
 
         void Fly();

@@ -12,13 +12,11 @@ namespace Mentoring.Solid.InterfaceSegregation.Principle
             {
                 Capacity = 200,
                 HasMeal = true,
-                HasWings = true
             });
 
             var airCraft = service.GetAirCraft();
 
             Assert.That(airCraft.HasOnboardMeal);
-            Assert.That(airCraft.HasWings);
             Assert.That(airCraft.Capacity == 200);
         }
 
@@ -27,12 +25,5 @@ namespace Mentoring.Solid.InterfaceSegregation.Principle
         {
             
         }
-    }
-
-    public class PassengerAirlineRequest
-    {
-        public bool HasMeal { get; set; }
-        public bool HasWings { get; set; }
-        public int Capacity { get; set; }
     }
 }
