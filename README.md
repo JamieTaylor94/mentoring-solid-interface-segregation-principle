@@ -17,6 +17,9 @@ A fighterjet needs to have the following methods and properties to function:
 - void Accelerate();
 - void TurnLeft();
 - void TurnRight();
+- void FireMissles();
+- void TrackTarget();
+- void EjectPilot();
 - int Capacity(); (there should be room for a pilot and co-pilot)
 
 Hint: The army do not care about serving food or drink.
