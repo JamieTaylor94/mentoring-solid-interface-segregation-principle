@@ -5,7 +5,7 @@
 [Learn here](https://reflectoring.io/interface-segregation-principle/)
 ## Practical 
 
-You work for a company that deals with different types of aircrafts from passenger places to fighter jets. 
+You work for a company that deals with different types of aircrafts from passenger planes to fighter jets. 
 
 Without breaking the interface segregation principle add a new service *ArmyAirlineService.cs* that returns a fighter jet.
 
@@ -18,6 +18,8 @@ A fighterjet needs to have the following methods and properties to function:
 - void TurnLeft();
 - void TurnRight();
 - int Capacity(); (there should be room for a pilot and co-pilot)
+
+Hint: The army do not care about serving food or drink.
 
 ## Evidence for the matrix
 
