@@ -12,7 +12,6 @@ Without breaking the interface segregation principle add a new service *ArmyAirl
 A fighterjet needs to have the following methods and properties to function:
 
 - void Fly();
-- bool HasWings(); (should be true)
 - void Break();
 - void Accelerate();
 - void TurnLeft();
